@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-26T23:14:07 IST" name="Default suite" finished-at="2024-02-26T23:18:12 IST" duration-ms="244693">
+    <groups>
+    </groups>
+    <test started-at="2024-02-26T23:14:07 IST" name="Default test" finished-at="2024-02-26T23:18:12 IST" duration-ms="244693">
+      <class name="SalesForce.CommerceTest.SalesForceLoginTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:SalesForce.CommerceTest.SalesForceLoginTest@5677323c]" started-at="2024-02-26T23:14:07 IST" name="initializeBrowser" finished-at="2024-02-26T23:14:18 IST" duration-ms="11104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="getSalesForceLogin()[pri:1, instance:SalesForce.CommerceTest.SalesForceLoginTest@5677323c]" started-at="2024-02-26T23:14:18 IST" name="getSalesForceLogin" finished-at="2024-02-26T23:14:34 IST" duration-ms="15869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSalesForceLogin -->
+        <test-method signature="navigateToCommerceModule()[pri:2, instance:SalesForce.CommerceTest.SalesForceLoginTest@5677323c]" started-at="2024-02-26T23:14:34 IST" name="navigateToCommerceModule" finished-at="2024-02-26T23:14:58 IST" duration-ms="24012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCommerceModule -->
+        <test-method signature="navigateToAccountsModule()[pri:3, instance:SalesForce.CommerceTest.SalesForceLoginTest@5677323c]" started-at="2024-02-26T23:14:58 IST" name="navigateToAccountsModule" finished-at="2024-02-26T23:15:07 IST" duration-ms="8318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToAccountsModule -->
+        <test-method signature="createNewAccount()[pri:4, instance:SalesForce.CommerceTest.SalesForceLoginTest@5677323c]" started-at="2024-02-26T23:15:07 IST" name="createNewAccount" finished-at="2024-02-26T23:15:39 IST" duration-ms="32817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount -->
+        <test-method signature="editaddAccount()[pri:5, instance:SalesForce.CommerceTest.SalesForceLoginTest@5677323c]" started-at="2024-02-26T23:15:39 IST" name="editaddAccount" finished-at="2024-02-26T23:16:51 IST" duration-ms="71338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editaddAccount -->
+        <test-method signature="accountSearch()[pri:6, instance:SalesForce.CommerceTest.SalesForceLoginTest@5677323c]" started-at="2024-02-26T23:16:51 IST" name="accountSearch" finished-at="2024-02-26T23:17:31 IST" duration-ms="40525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountSearch -->
+        <test-method signature="navigateToContactsModule()[pri:7, instance:SalesForce.CommerceTest.SalesForceLoginTest@5677323c]" started-at="2024-02-26T23:17:31 IST" name="navigateToContactsModule" finished-at="2024-02-26T23:18:12 IST" duration-ms="40525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToContactsModule -->
+      </class> <!-- SalesForce.CommerceTest.SalesForceLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

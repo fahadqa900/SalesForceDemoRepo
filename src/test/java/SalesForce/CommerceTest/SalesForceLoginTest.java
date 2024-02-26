@@ -104,6 +104,10 @@ public class SalesForceLoginTest extends SetupTearDown
    driver.findElement(By.xpath("//button[@title='Show Navigation Menu']")).click();
    Thread.sleep(3000);
    driver.findElement(By.xpath("//a[@href='/lightning/o/Contact/home']")).click();
+   }
+  @Test(priority = 8)
+  public static void createNewContact() throws InterruptedException
+  {
    Thread.sleep(5000);
    driver.findElement(By.xpath("//button[text()='New']")).click();
    Thread.sleep(5000);
@@ -115,6 +119,6 @@ public class SalesForceLoginTest extends SetupTearDown
    Thread.sleep(5000);
    driver.findElement(By.xpath("//button[@title='Close Firdous | Contact']")).click();
    Thread.sleep(5000);
-   driver.navigate().refresh();
-   } 
+   driver.navigate().refresh();	  
+  }
 }
